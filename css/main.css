@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+}
+
+body{
+    background-color: rgba(48, 200, 255, 0.72);
+}
+
+/* top container */
+
+.topContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 25px;
+    background-color: rgba(48, 200, 255, 0.72);
+}
+
+.topContainer .profilePic{
+    background: url('../images/aboutPic\ 12.39.14\ PM.jpeg');
+    height: 50vh;
+    width: 40%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+/* home icons */
+
+.homeIcons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.homeIcons ion-icon{
+    margin: 10px;
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* about bio */
+
+.aboutBio{
+    width: 50%;
+}
+
+.aboutBio h1{
+    text-align: center;
+    color: #fff;
+}
+
+.aboutBio p{
+    text-align: left;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+/* contact btn container */
+
+.contactBtnContainer{
+    text-align: center;
+    margin: 15px;
+}
+
+.contactBtnContainer a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 5%;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+/* midContainer */
+
+.midContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(56, 30, 63, 0.599);
+    margin: 1rem;
+}
+
+
+/* skills container */
+
+.skillsContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+
+.skillsContainer .skill{
+    margin: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.skillsTitleContainer h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+}
